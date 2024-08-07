@@ -16,7 +16,7 @@ function fetchData (url) {
 }
 
 // Fetch data using default URL
-// fetchData("https://api.github.com/users/hiteshchoudhary");
+fetchData("https://api.github.com/users/hiteshchoudhary");
 
 // Add event listener to the form
 document.querySelector('form').addEventListener('submit', (e) => {
